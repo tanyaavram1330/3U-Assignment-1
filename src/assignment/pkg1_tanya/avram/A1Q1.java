@@ -40,7 +40,8 @@ public class A1Q1 {
         new Wall (kitchener, 2, 1, Direction.SOUTH);
         
         //Creating the Robot called bob
-        Robot bob = new Robot (kitchener 0, 0, Direction.WEST);
+        Robot bob = new Robot(kitchener,0,2,Direction.WEST);
+        
         
     }
 }
