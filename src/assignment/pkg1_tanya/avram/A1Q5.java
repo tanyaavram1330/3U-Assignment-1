@@ -48,15 +48,24 @@ public class A1Q5 {
         karel.turnLeft();
         karel.turnLeft();
         karel.move();
+        karel.turnLeft();
+        karel.turnLeft();
+        karel.turnLeft();
+        karel.move();
+        karel.pickThing();
+        karel.move();
+        karel.pickThing();
+        karel.turnLeft();
         
-        while(karel.canPickThing())
-            
-        //Making maria pick up things
-            
-            while(maria.canPickThing())
-                
-            
-                
-    }
-    
+        //Making maria pick up things and move
+        maria.move();
+        maria.pickThing();
+        maria.turnLeft();
+        maria.move();
+        maria.pickThing();
+        maria.turnLeft();
+        maria.move();
+        maria.pickThing();
+        
+         }
 }
