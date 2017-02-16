@@ -22,24 +22,24 @@ public class A1Q4 {
     public static void main(String[] args) {
         // Creating new city called kitchener
         City kitchener = new City();
-        
+
         //Creating wall
-        new Wall (kitchener, 0, 1, Direction.WEST);
-        new Wall (kitchener, 1, 1, Direction.WEST);
-        new Wall (kitchener, 1, 1, Direction.SOUTH);
-        
+        new Wall(kitchener, 0, 1, Direction.WEST);
+        new Wall(kitchener, 1, 1, Direction.WEST);
+        new Wall(kitchener, 1, 1, Direction.SOUTH);
+
         //Creating first robot named bob
-        Robot bob = new Robot (kitchener, 0, 0, Direction.SOUTH);
-        
+        Robot bob = new Robot(kitchener, 0, 0, Direction.SOUTH);
+
         //Creating second robot named karel
-        Robot karel = new Robot (kitchener, 0, 1, Direction.SOUTH);
-        
+        Robot karel = new Robot(kitchener, 0, 1, Direction.SOUTH);
+
         //Move robot bob
         bob.move();
         bob.move();
         bob.turnLeft();
         bob.move();
-        
+
         //Move robot karel
         karel.move();
         karel.turnLeft();
@@ -52,7 +52,7 @@ public class A1Q4 {
         karel.turnLeft();
         karel.turnLeft();
         karel.move();
-        
+
     }
-    
+
 }
